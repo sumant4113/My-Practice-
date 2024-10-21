@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RtoApiActivity.class);
                 startActivity(intent);
+                Toast.makeText(MainActivity.this, "RtoApi is coming...", Toast.LENGTH_SHORT).show();
             }
         });
         btnIntent.setOnClickListener(new View.OnClickListener() {
