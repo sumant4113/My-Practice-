@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#9B63DBDA"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Album Id :- " />
+
+        <TextView
+            android:id="@+id/txt_albumId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text=" Id :- " />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/img_thumbnailUrl"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginHorizontal="5sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/undraw_music_re_a2jk" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_url"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/undraw_music_re_a2jk" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:text="natus nisi omnis corporis facere molestiae rerum in"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+
+</LinearLayout>
